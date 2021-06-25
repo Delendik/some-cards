@@ -1,0 +1,147 @@
+@font-face {
+  font-family: SF;
+  src: url(./fonts/SFProText-Regular.ttf);
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./fonts/Montserrat-Black.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: SF, sans-serif;
+  color: #ffffff;
+}
+
+p,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.conteiner__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 320px);
+  gap: 100px 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.card {
+  width: 320px;
+  height: 512px;
+  background-size: cover;
+  background-position: bottom;
+  padding: 40px 0 0 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.card__date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 91px;
+  height: 25px;
+  background: #ffdd2d;
+  border-radius: 24px;
+  font-size: 14px;
+  line-height: 122%;
+  text-align: center;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.card__title {
+  font-family: Montserrat;
+  font-size: 26px;
+  line-height: 32px;
+  margin-top: 15px;
+  max-width: 280px;
+}
+
+.card__subtitle {
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 120%;
+  max-width: 280px;
+}
+
+.card__text {
+  font-size: 16px;
+  line-height: 122%;
+  margin-top: 20px;
+  max-width: 280px;
+}
+
+ul.card__text {
+  padding-left: 25px;
+  margin: 20px 0 0;
+}
+
+.card__text_main {
+  font-size: 18px;
+}
+
+.card__link {
+  color: #ffdd2d;
+}
+
+.card__link:hover {
+  opacity: 0.8;
+}
+
+.card__button {
+  margin-bottom: 20px;
+}
+
+.card__form {
+  margin-top: 22px;
+  height: 100%;
+}
+
+.card__input {
+  width: 280px;
+  min-height: 61px;
+  border-radius: 12px;
+  opacity: 0.55;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.41px;
+  color: #333333;
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+
+.card__button {
+  width: 280px;
+  height: 45px;
+  background: #ffde01;
+  box-shadow: 0px 7px 35px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 15px;
+  line-height: 120%;
+  color: #333333;
+}
+
+.card__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.card__button_grey {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
