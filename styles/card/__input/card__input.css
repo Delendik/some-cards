@@ -1,0 +1,15 @@
+.card__input {
+  width: 280px;
+  min-height: 61px;
+  border-radius: 12px;
+  opacity: 0.55;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 17px;
+  letter-spacing: -0.41px;
+  color: #333333;
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}

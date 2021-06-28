@@ -1,0 +1,28 @@
+@import url(./__date/card__date.css);
+@import url(./__title/card__title.css);
+@import url(./__subtitle/card__subtitle.css);
+@import url(./__text/card__text.css);
+@import url(./__text/_main/card__text_main.css);
+@import url(./__text/_ul/card__text_ul.css);
+@import url(./__link/card__link.css);
+@import url(./__button/card__button.css);
+@import url(./__button/_grey/card__button_grey.css);
+@import url(./__form/card__form.css);
+@import url(./__input/card__input.css);
+@import url(./__background/card__background_one.css);
+@import url(./__background/card__background_two.css);
+@import url(./__background/card__background_three.css);
+@import url(./__background/card__background_four.css);
+@import url(./__background/card__background_five.css);
+@import url(./__background/card__background_six.css);
+@import url(./__background/card__background_seven.css);
+
+.card {
+  width: 320px;
+  height: 512px;
+  background-size: cover;
+  background-position: bottom;
+  padding: 40px 0 0 20px;
+  box-sizing: border-box;
+  position: relative;
+}

@@ -1,0 +1,7 @@
+.card__link {
+  color: #ffdd2d;
+}
+
+.card__link:hover {
+  opacity: 0.8;
+}
